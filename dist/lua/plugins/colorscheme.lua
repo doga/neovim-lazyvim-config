@@ -4,6 +4,7 @@
 --return require("plugins.colorschemes.night-owl")
 return require("plugins.colorschemes.kanagawa")
 --return require("plugins.colorschemes.tokyonight")
+-- return require("plugins.colorschemes.citruszest")
 -- return require("plugins.colorschemes.falcon")
 
 --return require("plugins.colorschemes.rasmus")
@@ -13,6 +14,7 @@ return require("plugins.colorschemes.kanagawa")
 --return require("plugins.colorschemes.nordic")
 --return require("plugins.colorschemes.darkrose")
 --return require("plugins.colorschemes.monochrome")
---return require("plugins.colorschemes.catppuccin")
+--return require("plugins.colorschemes.catppuccin") -- not working
 
--- return {} -- use the default colorscheme
+-- Use the default colorscheme
+-- return {}
