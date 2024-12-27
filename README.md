@@ -17,6 +17,7 @@ Choose one of these color schemes by uncommenting it in `lua/plugins/colorscheme
 - [night-owl](https://vimcolorschemes.com/oxfist/night-owl.nvim)
 - [kaganawa](https://dotfyle.com/plugins/rebelot/kanagawa.nvim)
 - [tokyonight](https://dotfyle.com/plugins/folke/tokyonight.nvim)
+- [citruszest](https://github.com/zootedb0t/citruszest.nvim)
 - [falcon](https://vimcolorschemes.com/i/trending/s.falcon)
 - [rasmus](https://vimcolorschemes.com/kvrohit/rasmus.nvim)
 - [blue-moon](https://dotfyle.com/plugins/kyazdani42/blue-moon)
@@ -27,9 +28,11 @@ Choose one of these color schemes by uncommenting it in `lua/plugins/colorscheme
 - [monochrome](https://dotfyle.com/plugins/kdheepak/monochrome.nvim)
 - [catppuccin](https://vimcolorschemes.com/catppuccin/nvim)
 
-### Keymaps
+### Other
 
-Adds a sample keymap.
+- Disables formattiong on save. To re-enable it, simply comment out one line in `lua/config/options.lua`.
+- Adds the [smear-cursor](https://github.com/sphamba/smear-cursor.nvim) plugin that eliminates discontinuous cursor jumps for a smoother UX. This plugin is disabled by default, but enabling it is a simple matter of commenting out one line in `lua/plugins/smear-cursor.lua`.
+- Adds a sample keymap in `lua/config/keymaps.lua`.
 
 ## Known bugs
 
